@@ -1,0 +1,94 @@
+@media only screen and (max-height: 600px) {
+    header .headline {
+        margin-top: 0;
+    }
+    .down {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .secondary-title {
+        margin: auto;
+    }
+    .news .news-content {
+        justify-content: center;
+        .news-box {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .offer .offer-content {
+        justify-content: center;
+        .offer-box {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .second-nav {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        .nav-brand {
+            padding: 5px 5vw;
+            font-size: 18px;
+            .user {
+                display: none;
+            }
+            .mobile-menu {
+                display: block;
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+        .nav-link {
+            display: none;
+        }
+    }
+    .second-nav {
+        height: auto;
+    }
+    .advence-search .category a i {
+        display: none;
+    }
+    .primary-title {
+        text-align: left;
+        padding: 0 10vw;
+        h2 {
+            font-size: 28px;
+        }
+    }
+    .news {
+        padding: 50px 10vw;
+    }
+    .offer {
+        padding: 50px 10vw;
+        .offer-title {
+            font-size: 20px;
+        }
+        .recommendations-img {
+            width: 290px;
+        }
+    }
+    .map {
+        padding: 0 10vw;
+    }
+    .tips {
+        padding: 50px 10vw;
+        .tips-content .tips-box {
+            width: 100%;
+        }
+    }
+}
+
+//
+//
+.mySlides {
+    display: none;
+}

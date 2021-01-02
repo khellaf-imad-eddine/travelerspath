@@ -1,0 +1,32 @@
+.second-header {
+    height: 400px;
+}
+
+.second-nav {
+    width: 1280px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.tips {
+    width: 100%;
+    font-family: $roboto;
+    padding: 0 100px;
+    margin-top: 50px;
+    .tips-content {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        .tips-box {
+            width: 45%;
+            h4 {
+                margin-bottom: 5px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
